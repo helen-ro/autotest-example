@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test example" verbose="1">
+
+    <test name="Example suit">
+        <parameter name="autUrl" value="http://www.1gl.ru"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="driverPath" value="chromedriver62-64.exe"/>
+        <parameter name="email" value="autoUser@mailinator.com"/>
+        <parameter name="password" value="autoPass"/>
+        <classes>
+            <class name="tests.SearchingTest"/>
+        </classes>
+    </test>
+</suite>
